@@ -2,6 +2,7 @@ package org.xtext.example.mydsl
 
 import com.google.inject.Inject
 import java.util.HashMap
+import org.eclipse.emf.ecore.EObject
 import org.eclipse.xtext.naming.QualifiedName
 import org.eclipse.xtext.resource.EObjectDescription
 import org.eclipse.xtext.resource.IEObjectDescription
@@ -9,7 +10,6 @@ import org.eclipse.xtext.resource.impl.DefaultResourceDescriptionStrategy
 import org.eclipse.xtext.scoping.impl.ImportUriResolver
 import org.eclipse.xtext.util.IAcceptor
 import org.xtext.example.mydsl.myDsl.Model
-import org.eclipse.emf.ecore.EObject
 
 class MyDslResourceDescriptionStrategy extends DefaultResourceDescriptionStrategy {
 	public static final String INCLUDES = "includes"
